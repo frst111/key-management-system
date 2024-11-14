@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ec6b6b;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.assign-section {
+  margin-bottom: 30px;
+}
+
+.assign-section select,
+.assign-section button {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.message {
+  color: green;
+  margin-top: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+table th,
+table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+table th {
+  background-color: #f2f2f2;
+}
+
+.key-lists {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.key-lists div {
+  width: 48%;
+}
+
+.key-lists h2 {
+  margin-bottom: 10px;
+}
+
+.key-lists ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.key-lists li {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.inspection-section {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.inspection-section button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.inspection-section button:hover {
+  background-color: #45a049;
+}
